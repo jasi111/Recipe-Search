@@ -1,0 +1,54 @@
+.jumbotron {
+    
+    background-color: #253138;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+
+  .brand-icon {
+      font-size: 100px;
+  }
+
+  .search_box{
+    border: none;
+    /* background-color: black; */
+    border-radius:10px;
+    color: var(--search-box-text);
+    font-size: 16px;
+    /* height: 100%; */
+    outline: none;
+    padding-inline-end: 44px;
+    padding-inline-start: 52px;
+    position: relative;
+    width: 60%;
+  }
+
+  
+
+  .search_button {
+    background-color:transparent;
+    border: none;
+    /* border-radius: 50%; */
+    margin-left: -30px;
+    /* padding-right: 5px; */
+    margin-top: -4px;
+    position: absolute;
+    
+    font-size: 26px;
+}
+
+button:hover{
+   background-color:  rgb(85, 77, 77);
+}
+
+.brand-icon {
+  font-size: 100px;
+  color: #faf6f6;
+}
+
+
+/* .material-icons {
+  
+  font-size: 20px;} */

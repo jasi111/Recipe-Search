@@ -1,0 +1,45 @@
+
+
+ img{
+    width:100%;
+    height:100%;
+    object-fit:cover
+}
+/* *{
+    width:%;
+    height:auto;
+    max-width:1200px;
+    margin:0 auto;
+} */
+
+
+
+.search-results{
+    margin-top:50px;
+    width:100%;
+    display:grid;
+    grid-gap:25px;
+    grid-template:auto / repeat(auto-fit, minmax(300px, 1fr));
+    padding:0 20px;
+
+}
+
+
+html{
+    font-family:"nunito";
+    font-size: 12px;
+} 
+
+
+.item{
+    width:100%;
+    border-radius:8px;
+    background-color: rgba(37, 37, 37);
+    overflow:hidden; 
+    padding: 15px;
+    color:whitesmoke;
+} 
+
+h1{
+    font-size: 20px;
+} 

@@ -1,0 +1,170 @@
+.item{
+    width:100%;
+    border-radius:8px;
+    background-color: #253138;
+    padding:15px;
+    overflow:hidden; 
+    /* width:100%; */
+    /* height:300px; */
+    border-radius:4px;
+    padding: 1px;
+    color:whitesmoke
+    
+}
+.search-results{
+    margin-top:50px;
+    width:100%;
+    display:grid;
+    grid-gap:25px;
+    grid-template:auto / repeat(auto-fit, minmax(300px, 1fr));
+    padding:0 20px;
+
+}
+
+ 
+.item img{
+    width:100%;
+    height:50%;
+    border-radius:4px;
+    padding:2px;
+}
+
+.flex-container{
+    display:flex;
+    /* justify-content:space-between; */
+    /* justify-content: space-evenly; */
+     align-items: flex-start; 
+    /* padding-top: 0px;
+   width:100px; */
+    /* justify-content:left; */
+    
+    /* align-items:center; */
+    /* justify-content: space-between;     */
+} 
+
+.calories{
+    width:50%;
+    /* height: 100%; */
+    height:50px;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+  
+.calories_data{
+    padding-left:0px;
+}
+
+
+.view{
+    width:50%; 
+     height:100;
+     padding-top: 20px;
+     padding-left: 20px;; 
+}  
+
+/* .health_label{
+    color: rgba(18, 189, 41, 0.54);
+    /* padding-left:0px;} */
+
+ h1{
+
+    color:whitesmoke;
+    margin:20px 10px 0 0;
+    font-size:1.3rem;
+    font-weight:500;
+    margin-top:2px;
+    margin-bottom:15px;
+}  
+
+a{
+    text-decoration:none;
+    text-align:center;
+    width:130px;
+    /* padding:5px; */
+    background-color:#404041;
+    color:white;
+    font-size:1rem;
+    margin-top:12px ;
+    align-self:flex-start;
+}
+
+p{
+    color: whitesmoke;
+    display:block;
+    margin-top:1px;
+    font-size:.9rem;
+    letter-spacing:.05rem;
+    padding-left:0px;
+   
+}
+
+.data{
+    color: whitesmoke;
+    
+}
+
+/* .main{
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    height:fit-content;
+}*/
+
+.MuiSvgIcon-root{
+
+    min-width:3.5rem;
+    min-height:3.5rem;
+    color: rgba(18, 189, 41, 0.54);
+
+} 
+u{
+    color:grey
+}
+.MuiIconButton-root {
+    
+    padding: 1px;
+}
+
+.MuiCardActions-root {
+    
+    padding: 0px;
+   
+}
+
+.MuiIconButton-root {
+    padding-left: 15px;
+}
+/* .MuiTypography-body1{
+    color:whitesmoke;
+    padding-top:0px;
+
+} */
+/* .MuiCardActions-root {
+    
+    padding: 0px 0px 0px 0px;
+} */
+/* .MuiIconButton-root{
+    padding:2px;
+} */
+/* 
+.MuiCardActions-root{
+    padding-top:0px;
+} */
+
+ /* .MuiIconButton-root{
+
+    padding-top:0px;
+    font-size: 0.5rem;
+
+} */
+
+/*
+
+.MuiButtonBase-root{
+    padding-top:0px;
+} */
+
+.MuiIconButton-label{
+    width:10px;
+    height:10px;
+}
