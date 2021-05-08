@@ -27,7 +27,7 @@ const useStyles = makeStyles((theme) => ({
     },    
   }));
 
-function Recipe({title, calories, image, ingredients, healthLabel, dietLabel}) {
+function Recipe({title, calories, image, ingredients, healthLabel, recipeURL}) {
 
 // const [open, setOpen] = useState(false);
 const classes = useStyles();
@@ -90,7 +90,7 @@ return (
 </p> 
 </div>
 <div className="view">
-<a href="#">View Recipe</a>
+<a href={recipeURL} target="_blabk">View Recipe</a>
 </div>
 
 </div>

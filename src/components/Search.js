@@ -55,7 +55,7 @@ const Search = props => {
 
       <form onSubmit={updateQuery}>
           <input className="search_box" type="text" onChange={searchInput} value={search} />
-          <button className="search_button" type="submit"><span class="material-icons">
+          <button className="search_button " type="submit"><span class="material-icons">
 search
 </span></button>
         </form>
@@ -72,6 +72,7 @@ search
     <Recipe 
     title={getRecipe.recipe.label}
     calories={getRecipe.recipe.calories}
+    recipeURL={getRecipe.recipe.url}
     healthLabel={getRecipe.recipe.healthLabels}
     dietLabel={getRecipe.recipe.dietLabels}
     image={getRecipe.recipe.image}
